@@ -11,7 +11,7 @@ const ExamInformation = ["JEE Main","JEE Advanced","NEET UG","Class 10","Class 1
 
 const Footer = () => {
   return (
-    <div className='bg-[#0f1825] text-white' >
+    <div className='bg-[#0f1825] text-white flex flex-col' >
         <div className=' m-4 py-3 px-7 flex gap-7 justify-center'>
             <div className='flex flex-col gap-2'>
                 <div className='font-semibold'>About</div>
